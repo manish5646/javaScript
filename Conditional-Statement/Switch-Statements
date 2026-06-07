@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS</title>
+
+  <script>
+    let months = +prompt("Enter the month number");
+
+    switch (months) {
+      case 1:
+      case 3:
+      case 5:
+      case 7:
+      case 8:
+      case 10:
+      case 12:
+        console.log(`${months}: 31 days`);
+        break;
+
+      case 2:
+        console.log(`${months}: 28 days`);
+        break;
+
+      case 4:
+      case 6:
+      case 9:
+      case 11:
+        console.log(`${months}: 30 days`);
+        break;
+
+      default:
+        console.log("Invalid input");
+    }
+  </script>
+</head>
+
+<body>
+  <h1>JavaScript Basics</h1>
+</body>
+</html>
